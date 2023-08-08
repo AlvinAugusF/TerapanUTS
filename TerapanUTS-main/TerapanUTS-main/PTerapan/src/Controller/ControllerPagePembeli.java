@@ -30,7 +30,6 @@ public class ControllerPagePembeli {
     public void initialize(){
         vboxProduct = new VBox();
         ScPane.setContent(vboxProduct);
-
     }
 
     public void Cart(ActionEvent ex) throws IOException {

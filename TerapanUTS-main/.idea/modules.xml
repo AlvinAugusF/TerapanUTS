@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TerapanUTS-main/PTerapan/PTerapan.iml" filepath="$PROJECT_DIR$/TerapanUTS-main/PTerapan/PTerapan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TerapanUTS-main.iml" filepath="$PROJECT_DIR$/.idea/TerapanUTS-main.iml" />
+    </modules>
+  </component>
+</project>

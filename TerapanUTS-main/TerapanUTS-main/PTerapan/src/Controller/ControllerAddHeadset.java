@@ -22,14 +22,13 @@ public class ControllerAddHeadset {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/UI/PageCart.fxml"));
         Parent root = loader.load();
         ControllerPageCart e = loader.getController();
-        if (e != null) {
-            addHeadset.setText("Added!");
-            a = 1;
-            e.GetA(a);
-        } else {
+        addHeadset.setText("Added!");
+        e.SetItem(Jumlah);
+
+
             // Handle the case when the controller is null
             // For example, show an error message or log a warning.
-        }
+
     }
 
     public Label NamaProduct;
