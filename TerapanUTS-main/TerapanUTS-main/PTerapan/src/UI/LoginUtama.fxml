@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerLoginUtama">
+    <top>
+        <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" text="Login" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="System Bold" size="26.0" />
+            </font>
+        </Label>
+    </top>
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="SelectPembeli" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#pembeli" prefHeight="60.0" prefWidth="278.0" text="Login Pembeli" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></Button>
+                <Button fx:id="SelectPenjual" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#penjual" prefHeight="59.0" prefWidth="279.0" text="Login Penjual" textAlignment="CENTER" />
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

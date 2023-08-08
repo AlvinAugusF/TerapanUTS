@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="123.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerAddHeadset">
+   <center>
+      <VBox maxHeight="-Infinity" prefHeight="102.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="NamaProduct" prefHeight="34.0" prefWidth="598.0" text="Headset">
+               <VBox.margin>
+                  <Insets bottom="1.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label prefHeight="18.0" prefWidth="116.0" text="Rp.100.000">
+               <VBox.margin>
+                  <Insets bottom="8.0" />
+               </VBox.margin>
+            </Label>
+            <HBox prefHeight="18.0" prefWidth="600.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#tambahItem" text="+">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin></Button>
+                  <Label fx:id="JumlahItem" text="0" />
+                  <Button mnemonicParsing="false" onAction="#kurangItem" text="-">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin></Button>
+               </children>
+            </HBox>
+            <Button fx:id="addHeadset" mnemonicParsing="false" onAction="#Added" text="Add To Cart">
+               <VBox.margin>
+                  <Insets top="8.0" />
+               </VBox.margin></Button>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
